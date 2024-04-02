@@ -34,3 +34,19 @@ function hello_elementor_child_scripts_styles() {
 
 }
 add_action( 'wp_enqueue_scripts', 'hello_elementor_child_scripts_styles', 20 );
+add_filter("wp_nav_menu_items", "edit_menu",10,2);
+
+function edit_menu($items,$args){
+	if (is_user_logged_in()) {
+		
+		$array = explode("</li>", $items);
+ 		$longueurTableau = count($array);
+ 		array_splice($array, $longueurTableau -2, 0, '<li id="admin"><a href="' . get_admin_url() . '">Admin</a>');
+
+  		$items = implode("</li>", $array);
+
+	}
+	return $items;
+}
+	
+

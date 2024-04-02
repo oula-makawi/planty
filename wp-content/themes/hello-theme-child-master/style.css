@@ -13,3 +13,138 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 */
 
 /* Add your custom styles here */
+#site-header .custom-logo-link img { 
+
+    max-width: 219px;
+}
+#site-header .commande a {
+
+    color: #fff;
+    background: #DC9F96;
+    padding:15px 35px;
+}
+.site-branding{
+
+    padding-left: 35px;
+}
+
+.site-navigation ul.menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 25px ;
+}
+a {
+    color: black;
+}
+
+#site-header {
+    padding-block-start: 0;
+    padding-block-end: 0;
+}
+#site-header .header-inner {
+
+max-width: 100%;
+}
+
+#site-footer a {
+    color: black;
+    display: grid;
+    justify-content: center;
+    font-family: 'Syne', sans-serif;
+}
+
+
+#contact-form input ,#contact-form textarea {
+    border: white;
+}
+
+input.wpcf7-form-control.wpcf7-submit.has-spinner {
+
+    font-family: syne;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 37px;
+    background-color: #E0B9B4;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 70px 10px 70px;
+    width: 198px;
+    height: 55px;
+
+    margin:0 auto ;
+    display: block;
+}
+.commande-fruit{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.commande-fruit p {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.commande-fruit input {
+    width: 50px;
+}
+.commande-block {
+    display: flex;
+
+}
+.commande-information {
+    padding-right: 25px;
+    border-right: 1px solid white ;
+
+}
+.commande-livraison{
+    padding-left: 25px;
+}
+
+label {
+    display: inline-block;
+    line-height:2;
+    vertical-align: middle;
+    font-family: syne;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+
+.wpcf7-form-control.wpcf7-submit.has-spinner:hover  {
+    background-color: rgba(192, 46, 68, 1);
+    border-color: rgba(192, 46, 68, 1);
+    color: #FFFFFF;
+    border-radius: 5px;
+
+}
+
+#form-contact2 {
+
+    color:#FFFFFF;
+}
+
+#form-contact3{
+
+color:#FFFFFF;
+}
+
+@media screen and (max-width:768px) {
+    .commande-block {
+        display: flex;
+    flex-direction: column;
+    }
+    .commande-information {
+        padding-right: 0px;
+        border-right: 0px solid white ;
+    
+    }
+    .commande-livraison{
+        padding-left: 0px;
+    }
+    
+}
