@@ -127,12 +127,12 @@ label {
 
 #form-contact2 {
 
-    color:#FFFFFF;
+    border: white;
 }
 
 #form-contact3{
 
-color:#FFFFFF;
+    border: white;
 }
 
 @media screen and (max-width:768px) {
