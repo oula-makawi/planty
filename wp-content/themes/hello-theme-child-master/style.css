@@ -68,11 +68,11 @@ input.wpcf7-form-control.wpcf7-submit.has-spinner {
     background-color: #E0B9B4;
     border-radius: 5px;
     color: white;
-    padding: 10px 70px 10px 70px;
+    padding: 10px 70px 10px 60px;
     width: 198px;
     height: 55px;
 
-    margin:0 auto ;
+    margin:auto ;
     display: block;
 }
 .commande-fruit{
@@ -93,11 +93,13 @@ input.wpcf7-form-control.wpcf7-submit.has-spinner {
 }
 .commande-block {
     display: flex;
+    padding: 10px;
 
 }
 .commande-information {
     padding-right: 25px;
     border-right: 1px solid white ;
+
 
 }
 .commande-livraison{
