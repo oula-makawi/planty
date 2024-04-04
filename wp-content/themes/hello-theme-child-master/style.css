@@ -89,11 +89,11 @@ input.wpcf7-form-control.wpcf7-submit.has-spinner {
     align-items: center;
 }
 .commande-fruit input {
-    width: 50px;
+    width: 57px;
 }
 .commande-block {
     display: flex;
-    padding: 10px;
+    padding: 30px;
 
 }
 .commande-information {
@@ -147,6 +147,9 @@ label {
     }
     .commande-livraison{
         padding-left: 0px;
+    }
+    .commande-fruit input {
+        width: 50px;
     }
     
 }
