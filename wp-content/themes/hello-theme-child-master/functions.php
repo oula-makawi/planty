@@ -37,7 +37,7 @@ add_action( 'wp_enqueue_scripts', 'hello_elementor_child_scripts_styles', 20 );
 add_filter("wp_nav_menu_items", "edit_menu",10,2);
 
 function edit_menu($items,$args){
-	if (is_user_logged_in()) {
+	if (is_user_logged_in() && $args->menu !== "footer") {
 		
 		$array = explode("</li>", $items);
  		$longueurTableau = count($array);

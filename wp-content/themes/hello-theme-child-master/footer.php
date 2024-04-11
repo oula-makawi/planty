@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 ?>
 <footer id="site-footer" class="site-footer">
-<a href=" ">Mentions légales </a>	
+<?php wp_nav_menu( array( 'menu'=> 'footer', 'container'=> 'nav' )); ?>	
 </footer>
 <?php wp_footer(); ?>
 

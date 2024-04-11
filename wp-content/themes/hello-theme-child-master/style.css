@@ -53,6 +53,9 @@ max-width: 100%;
     justify-content: center;
     font-family: 'Syne', sans-serif;
 }
+ #site-footer #menu-footer {
+    list-style: none;
+ }
 
 
 #contact-form input ,#contact-form textarea {
@@ -96,6 +99,7 @@ input.wpcf7-form-control.wpcf7-submit.has-spinner {
     padding: 30px;
 
 }
+
 .commande-information {
     padding-right: 25px;
     border-right: 1px solid white ;
